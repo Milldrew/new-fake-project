@@ -1,5 +1,4 @@
 const { execSync } = require('child_process');
-pwd;
 try {
   console.log('Formatting code with Prettier...');
   execSync('npx prettier --write "src/**/*.js"', { stdio: 'inherit' });
